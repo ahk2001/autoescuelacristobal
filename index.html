@@ -8,8 +8,8 @@
   <meta name="keywords" content="Autoescuela Cristóbal, autoescuela Huelva, carnet de conducir Huelva, permiso B Huelva, permiso A2 Huelva, CAP Huelva, ADR Huelva, Plaza Pintor Enrique Montenegro Huelva, cursos intensivos teórica Huelva" />
   <meta name="robots" content="index, follow" />
   <meta name="theme-color" content="#6BD042" />
-  <meta name="color-scheme" content="dark" />
-  <meta name="supported-color-schemes" content="dark" />
+  <meta name="color-scheme" content="only dark" />
+  <meta name="supported-color-schemes" content="only dark" />
 
   <!-- Open Graph -->
   <meta property="og:title" content="Autoescuela Cristóbal | Huelva · 5,0 ★ en Google" />
@@ -33,10 +33,11 @@
        1. SISTEMA DE DISEÑO EDITORIAL — AUTOESCUELAS AUTOESCUELA CRISTÓBAL (HUELVA)
        ========================================================================== */
     :root {
-      color-scheme: dark;
-      supported-color-schemes: dark;
+      color-scheme: only dark;
+      supported-color-schemes: only dark;
       -webkit-color-scheme: dark;
       forced-color-adjust: none;
+      -webkit-forced-color-adjust: none;
 
       /* Paleta Oficial Extraída del Logotipo y Dossiê Autoescuela Cristóbal */
       --cristobal-graphite: #363A3F;
@@ -90,9 +91,12 @@
       box-sizing: border-box;
       margin: 0;
       padding: 0;
+      forced-color-adjust: none;
+      -webkit-forced-color-adjust: none;
     }
 
     html {
+      color-scheme: only dark;
       scroll-behavior: smooth;
       font-family: var(--font-sans);
       color: var(--text-body);
