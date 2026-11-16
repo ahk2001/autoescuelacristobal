@@ -1,0 +1,12 @@
+# Arquivos internos de pesquisa e briefing (não publicar em produção)
+dados.txt
+dossie_autoescola.md
+
+# Arquivos de sistema e editores
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+.vscode/
+.idea/
